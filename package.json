@@ -1,13 +1,14 @@
 {
   "name": "prepublish-ok",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Check before Publish",
-  "main": "index.js",
+  "main": "package.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "npm-audit-ok": "./npm-audit.js"
+    "npm-audit-ok": "./npm-audit.js",
+    "package-ok": "./package.js"
   },
   "repository": {
     "type": "git",

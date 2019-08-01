@@ -16,7 +16,7 @@ in your package.json scripts
 
 ```js
 "scripts": {
-  "prepublishOnly" : "npm-audit-ok"
+  "prepublishOnly" : "npm-audit-ok && package-ok"
 }
 ```
 
@@ -24,4 +24,8 @@ in your package.json scripts
 
 ### Npm Audit
 
-**npm-audit-ok** - check for npm vulnerabilities
+**`npm-audit-ok`** - check for npm vulnerabilities
+
+### Package Check
+
+**`package-ok`** - Checks paths in package.json
