@@ -1,0 +1,30 @@
+{
+  "name": "prepublish-ok",
+  "version": "0.1.0",
+  "description": "Check before Publish",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "npm-audit-ok": "./npm-audit.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maddhruv/prepublish-ok.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maddhruv/prepublish-ok/issues"
+  },
+  "homepage": "https://github.com/maddhruv/prepublish-ok#readme",
+  "devDependencies": {
+    "standard": "^13.1.0"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "log-symbols": "^3.0.0"
+  }
+}
