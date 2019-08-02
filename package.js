@@ -10,7 +10,8 @@ const pkgFields = [
   'browser',
   'man',
   'types',
-  'typings'
+  'typings',
+  'module'
 ]
 
 const pkg = JSON.parse(fs.readFileSync(path.join(process.cwd(), 'package.json')))
