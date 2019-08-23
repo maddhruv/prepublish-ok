@@ -41,5 +41,5 @@ if (errors.length > 0) {
   })
   process.exit(1)
 } else {
-  console.log(`${success} Wohoo! The package is healthy and all fields files were found`)
+  console.log(`${success} Woohoo! The package is healthy and all fields' files were found`)
 }
