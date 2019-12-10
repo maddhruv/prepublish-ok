@@ -3,6 +3,11 @@
   "version": "0.4.0",
   "description": "Check before Publish",
   "main": "package.js",
+  "files": [
+    "package.js",
+    "npm-audit.js",
+    "README.md"
+  ],
   "scripts": {
     "prepublishOnly": "npm-audit-ok && package-ok",
     "test": "echo \"Error: no test specified\" && exit 1"

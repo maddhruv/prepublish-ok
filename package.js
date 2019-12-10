@@ -11,7 +11,8 @@ const pkgFields = [
   'man',
   'types',
   'typings',
-  'module'
+  'module',
+  'files'
 ]
 
 const pkg = JSON.parse(fs.readFileSync(path.join(process.cwd(), 'package.json')))
