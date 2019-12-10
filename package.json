@@ -21,9 +21,14 @@
     "type": "git",
     "url": "git+https://github.com/maddhruv/prepublish-ok.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "npmaudit",
+    "prepublishcheck",
+    "package-ok",
+    "check-package"
+  ],
+  "author": "Dhruv Jain <dhruvjainpenny@gmail.com>",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/maddhruv/prepublish-ok/issues"
   },
